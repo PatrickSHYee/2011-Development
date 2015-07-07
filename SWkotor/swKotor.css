@@ -1,0 +1,73 @@
+/*
+	This section of the css page is a list of reusable tags that happens way too much:
+		<a href="#top"><l1>top</l1></a>
+*/
+
+body {
+	text-align: center;
+	background: #3E3E46;
+	color: #106689;
+}
+
+a {
+	text-decoration: none;
+}
+a:link {color:#12BEFF;}    /* unvisited link */
+a:visited {color:#12BEFF;} /* visited link */
+a:hover {color:#106689;}   /* mouse over link */
+a:active {color:#12BEFF;}  /* selected link */
+
+table {
+	width: 85%;
+	text-align: center;
+	background: #152836;
+}
+
+.stat {
+	width: 100%;
+}
+
+table tr{
+	border: 1px solid black;
+}
+
+.main_Content {
+	width: 75%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.main_Content td{
+	text-align: left;
+	border: 1px solid black;
+}
+
+h1{
+	text-transform: uppercase;
+	color: #00B5FF;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: #00FF46;
+}
+
+h3 {
+	color: #FFFC00;
+}
+
+b {
+	text-transform: uppercase;
+}
+
+l1 {
+	color: #ff0000;	
+}
+
+l1:hover {color:#12BEFF;}
+
+.menu {
+list-style-type:none;
+margin:0;
+padding:0;
+}
